@@ -126,7 +126,7 @@ const resume = () => {
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Using the openAI API I have built an AI code generator. This application 
-              uses a prompt from the user e.g "Generate a function that returns the first 5 fibonacci number"
+              uses a prompt from the user e.g &quot;Generate a function that returns the first 5 fibonacci number&quot;
               the application will then call the API and display the output.
             </li>
             <li>
