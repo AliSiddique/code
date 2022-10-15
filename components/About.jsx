@@ -13,14 +13,12 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
+            I am a Computer Science student studying in London.  I have learn a variety of 
+            technologies in University and in my own free time, such as Django, Java and Javascript.
+            I am most proficient in building front-end applications using HTML, CSS, Javascript, and React, I am a quick learner and can pick up new tech stacks as needed. I believe that being a great developer is not using one specific language, but choosing the best tool for the job.
+            I have developed Web application with Django and Javascript frameworks, namely Next.js and React.js.
+            API's are contantly used in my applications and I am familiar with Protocols such as RESTFUL API's.
+
           </p>
           <p className='py-2 text-gray-600'>
             I started web developement in 2013 managing multiple e-commerce

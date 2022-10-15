@@ -19,27 +19,27 @@ const Projects = () => {
           <ProjectItem
             title='Online magazine'
             backgroundImg={propertyImg}
-            projectUrl='/property'
+            projectUrl='/mag'
             tech='Django'
           />
           <ProjectItem
             title='Frontend assesment'
             backgroundImg={cryptoImg}
-            projectUrl='/crypto'
+            projectUrl='/react'
             tech='React JS'
 
           />
           <ProjectItem
             title='Ai Code generator'
             backgroundImg={netflixImg}
-            projectUrl='/netflix'
+            projectUrl='/django'
             tech='Django'
 
           />
           <ProjectItem
-            title='Twitch UI'
+            title='Machine learning'
             backgroundImg={twitchImg}
-            projectUrl='/twitch'
+            projectUrl='/machine'
             tech='Sci-kit learn'
 
           />

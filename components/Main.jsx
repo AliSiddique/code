@@ -3,18 +3,38 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import Typewriter from 'typewriter-effect';
 
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
+          {/* <p className='uppercase text-sm tracking-widest text-gray-600'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Ali</span>
-          </h1>
+            Hi, I&#39;m <span className='text-red-700'> Ali</span>
+          </h1> */}
+          <Typewriter
+           options={{
+              strings: ['Hey My Name is Ali',"I am"],
+              autoStart: true,
+              loop: true,
+            }}
+              onInit={(typewriter) => {
+                typewriter.typeString('Hello World!')
+                  .callFunction(() => {
+                    console.log('String typed out!');
+                  })
+                  .pauseFor(2500)
+                  .deleteAll()
+                  .callFunction(() => {
+                    console.log('All strings were deleted');
+                  })
+                  .start();
+              }}
+            />
           <h1 className='py-2 text-gray-700'>A Full Stack  Developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             I’m focused on building responsive front-end web applications
@@ -22,7 +42,7 @@ const Main = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/alihsiddique/'
               target='_blank'
               rel='noreferrer'
             >
@@ -31,7 +51,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/AliSiddique'
               target='_blank'
               rel='noreferrer'
             >
